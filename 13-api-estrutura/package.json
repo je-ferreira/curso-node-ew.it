@@ -1,0 +1,23 @@
+{
+  "name": "13-api-estrutura",
+  "version": "1.0.0",
+  "description": "docker run --name postgres -e POSTGRES_USER=jessicaferreira -e POSTGRES_PASSWORD=minhasenha -e POSTGRES_DB=heroes -p 5432:5432 -d postgres",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha src/tests/*.js",
+    "test:watch": "mocha src/tests/*.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "hapi": "^18.1.0",
+    "mongoose": "^5.9.26",
+    "pg": "^8.3.0",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.3.3"
+  },
+  "devDependencies": {
+    "mocha": "^8.0.1"
+  }
+}
