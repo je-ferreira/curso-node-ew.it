@@ -125,9 +125,6 @@ describe('Suite de Testes da API Heroes', function () {
         const expected = {
             poder: 'Super Mira'
         }
-        const dadoAtualizar = {
-            poder: 'Super Mira'
-        }
 
         const result = await app.inject({
             method: 'PATCH',
